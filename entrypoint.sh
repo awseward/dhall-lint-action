@@ -6,4 +6,4 @@ find . -type f -name '*.dhall' | while read -r fpath; do
   echo "${fpath}" | xargs -t dhall lint --inplace
 done
 
-git diff --exit-code
+git diff --color=always --exit-code
