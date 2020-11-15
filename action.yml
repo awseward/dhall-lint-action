@@ -3,3 +3,10 @@ description: 'Run `dhall lint` on `*.dhall`'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.dhallVersion }}
+inputs:
+  dhallVersion:
+    description: 'Version of dhall-haskell to use'
+    required: false
+    default: '1.30.0'
