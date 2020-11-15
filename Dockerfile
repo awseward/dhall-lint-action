@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-ARG dhall_haskell_ver=1.30.0
+ARG dhall_haskell_ver=1.36.0
 
 RUN apt-get update \
  && apt-get install -y \
