@@ -1,3 +1,3 @@
-# Dhall Lint GitHub Action
+# ARCHIVED
 
-Lints all `.dhall` files in a GitHub repository.
+Prefer https://github.com/awseward/gh-actions-dhall
